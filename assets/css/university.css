@@ -1,0 +1,89 @@
+/*
+    colors used
+    #D69314	(214,147,20)
+    #ffffff	(255,255,255)
+*/
+
+
+  hr {
+    width: 60px;
+  }
+  
+  .photo-info {
+    opacity: 0.8;
+  }
+  
+  .caption {
+    padding-left: 30%;
+    padding-right: 30%;
+  }
+  
+  .yellow-color {
+    color: #D69314 !important;
+  }
+  
+  .green-color {
+    color: #065C73;
+  }
+  
+  .background-black {
+    background-color: #000;
+  }
+  
+  .background-green {
+    background-color: #065C73;
+  }
+  
+  .yellow-background {
+    background-color: #D69314;
+  }
+  
+  .large-text {
+    font-size: 3rem;
+  }
+  
+  .card {
+    width: 20rem;
+  }
+  
+  .icon-circle {
+    padding-top: 7px;
+    min-width: 90px;
+    min-height: 90px;
+    max-width: 90px;
+    max-height: 90px;
+    background: #065C73;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+  }
+  
+  #main-photo {
+    background: url("https://images.unsplash.com/photo-1541339907198-e08756dedf3f?ixlib=rb-1.2.1&auto=format&fit=crop&w=2100&q=80");
+    background-size: cover;
+    background-position: center center;
+    min-height: 720px;
+  }
+  
+  #how-we-teach-header {
+    background-size: 100%;
+    min-height: 200px;
+    background: url("https://images.unsplash.com/photo-1536148935331-408321065b18?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=933&q=80");
+    background-attachment: fixed;
+    background-position: 0 -300px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  #we-teach {
+    text-align: left;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .caption {
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+  }
+  
